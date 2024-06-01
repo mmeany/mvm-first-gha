@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "Hello World!"
+        run: |
+          echo "Hello World!"
+          echo "I can execute multiple lines of script"
+          echo "in a single run command"
       - name: Print goodbye
         run: echo "Goodbye"
